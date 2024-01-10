@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="greeting">
+        <h1>Добро пожаловать! Давай знакомиться!</h1>
+      </div>
+      <div class="heading">
+        <table>
+          <tr>
+            <td>
+              <a href="#about-me">ОБО МНЕ</a>
+            </td>
+            <td>
+              <a href="#portfolio">ПОРТФОЛИО</a>
+            </td>
+            <td>
+              <a href="#contacts">КОНТАКТЫ</a>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <h2 id="about-me">ОБО МНЕ</h2>
+      <div class="about-me">
+        <div class="text">
+          <p>
+            Привет! Меня зовут Алина Сорокина, живу и работаю в городе
+            Санкт-Петербург. Окончила Государственный университет морского и
+            речного флота им. адмирала С.О. Макарова по направлению "Экономика
+            организаций и предприятий", но решила на этом не останавливаться!
+          </p>
+          <p>
+            Сейчас я начинающий JavaScript-разработчик. Свой путь в мир IT я
+            начала с первого в России образовательного проекта, работающего в
+            формате буткемпа -
+            <a
+              href="https://elbrusboot.camp/?utm_source=yandex&utm_medium=cpc&utm_campaign=ebc_yandex_brand_search_spb&utm_content=5202708668&utm_term=Эльбрус%20Буткемп&etext=&yclid=6747362419533748933"
+              >Elbrus Coding Bootcamp.</a
+            >
+          </p>
+          <p>
+            Свое свободное время я люблю проводить активно! Для себя из
+            активностей выбрала: регулярные походы в спортзал, в теплые времена
+            года - катание на велосипеде, роликах и даже квадроцикле по сложно
+            проходимым местам.
+          </p>
+          <p>
+            В осоебенности люблю природу, проводить время на свежем воздухе.
+            Родилась и росла я в небольшом городе вдоль побережья Балтийского
+            моря, Лиепае. Поэтому особую любовь испытываю к тихим и безлюдным
+            пляжам, местам единения с природой.
+          </p>
+        </div>
+        <div class="my-photo">
+          <img
+            src="images/my-photo.jpg"
+            alt="my-photo"
+            style="width: 350px; height: 370px"
+          />
+        </div>
+      </div>
+    </div>
+    <div class="portfolio">
+      <h2 id="portfolio">ПОРТФОЛИО</h2>
+      <div class="slider middle">
+        <div class="slides">
+          <input type="radio" name="r" id="r1" checked />
+          <input type="radio" name="r" id="r2" />
+          <input type="radio" name="r" id="r3" />
+
+          <div class="slide s1">
+            <img src="images/1.jpg" alt="Изображение" class="img" />
+          </div>
+          <div class="slide">
+            <img src="images/2.jpg" alt="Изображение" class="img" />
+          </div>
+          <div class="slide">
+            <img src="images/3.jpg" alt="Изображение" class="img" />
+          </div>
+        </div>
+        <div class="navigation">
+          <label for="r1" class="bar"></label>
+          <label for="r2" class="bar"></label>
+          <label for="r3" class="bar"></label>
+        </div>
+      </div>
+      <div>
+        <h2 id="contacts">КОНТАКТЫ</h2>
+        <div class="box">
+          <ul class="list">
+            <li>
+              <a href="https://github.com/AlinaSorokina1" target="_blank"
+                ><img src="images/GH.png" alt="GitHub"
+              /></a>
+            </li>
+            <li>
+              <a href="https://t.me/alinasorokinaaa" target="_blank"
+                ><img src="images/TG.png" alt="Telegram"
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
